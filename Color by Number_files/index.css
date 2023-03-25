@@ -1,0 +1,253 @@
+html{
+    font-family: Rubik;
+}
+.container{
+    max-width: 1440px;
+    padding-top: 120px;
+    margin: 0 auto;
+    background-image: url('../images/bg.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+/* header */
+.header{
+    height: 120px;
+    padding: 30px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #fff;
+    border-bottom: #e6e6e6 solid 1px;
+    z-index: 999;
+}
+.header .header-container{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.header .logo{
+    width: 60px;
+    height: 60px;
+    background-image: url('../images/icon_App_Icon@2x.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    text-indent: -1000px;
+    float: left;
+}
+.header .logo-name{
+    font-size: 24px;
+    line-height: 60px;
+    text-indent: 20px;
+    float: left;
+}
+.header .header-link{
+    height: 60px;
+    float: right;
+}
+.header .header-link a{
+    display: inline-block;
+    margin: 15px 20px 15px 30px;
+    width: 30px;
+    height: 30px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.header .header-link a.link-fb{
+    background-image: url('../images/facebook@2x.jpg');
+}
+.header .header-link a.link-email{
+    background-image: url('../images/email@2x.jpg');
+}
+/* first screen */
+.section-main{
+    padding: 20px 70px 400px;
+    /* background-image: url('../images/bg@2xx.jpg'), url('../images/img_Blue@3x.jpg'), url('../images/img_Red@3x.jpg');
+    background-repeat: no-repeat; */
+    background-position: 97% 70%, 69% -5%, 0 80%;
+    background-size: 156px 156px, 219px 219px, 352px 613px;
+}
+.section-main .left{
+    padding: 200px 0 0 110px;
+    width: 46%;
+    float: left;
+}
+.section-main .left .title{
+    line-height: 85px;
+    font-size: 52px;
+    font-weight: bold;
+}
+.section-main .left .content{
+    color: #292929;
+    font-size: 18px;
+    line-height: 22px;
+}
+.section-main .left .store-link{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+.section-main .left .store-link a{
+    display: inline-block;
+    width: 46%;
+    max-width: 210px;
+    height: 80px;
+    max-height: 80px;
+    margin-right: 36px;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+.section-main .left .store-link a:last-child{
+    margin-right: 0;
+}
+.section-main .left .store-link a.appstore{
+    background-image: url('../images/button_App_Store@3x.jpg')
+}
+.section-main .left .store-link a.googleplay{
+    background-image: url('../images/button_Google_Play@3x.png')
+}
+.section-main .right{
+    width: 54%;
+    height: 990px;
+    background-image: url('../images/phone.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    float: right;
+}
+
+/* section list show 4 feature */
+.section-repeat{
+    margin-top: 180px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+.section-repeat:nth-child(2){
+    margin-top: 0;
+}
+.section-repeat .theme-img{
+    width: 50%;
+    min-height: 720px;
+    height: auto;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.section-repeat .theme-content{
+    width: 50%;
+    padding: 0 135px;
+}
+.section-repeat .theme-content .icon{
+    margin-top: 105px;
+    width: 80px;
+    height: 80px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.section-repeat .theme-content .title{
+    margin-top: 30px;
+    line-height: 42px;
+    font-size: 36px;
+    font-weight: bold;
+}
+.section-repeat .theme-content .content{
+    margin-top: 40px;
+    line-height: 22px;
+    font-size: 18px;
+}
+.section-repeat .theme-content .content:last-child{
+    margin-bottom: 105px;
+}
+.icon.innovation{
+    background-image: url('../images/icon_Innovation@3x.jpg');
+}
+.theme-img.innovation{
+    background-image: url('../images/WechatIMG157.jpg');
+}
+.icon.secret{
+    background-image: url('../images/icon_Secret@3x.jpg');
+}
+.theme-img.secret{
+    background-image: url('../images/secret.jpg');
+}
+.icon.coloring{
+    background-image: url('../images/icon_Coloring@3x.jpg');
+}
+.theme-img.coloring{
+    background-image: url('../images/coloring.jpg');
+}
+.icon.community{
+    background-image: url('../images/icon_Community@3x.jpg');
+}
+.theme-img.community{
+    background-image: url('../images/img_Community@3x.jpg');
+}
+
+.icon-blue-fb{
+    margin-left: 10px;
+    vertical-align: middle;
+    display: inline-block;
+    width: 28px;
+    height: 28px;
+    background-image: url('../images/facebook_1@2x.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+/* footer */
+.footer{
+    position: relative;
+    margin-top: 380px;
+    padding: 0 135px;
+    min-height: 530px;
+}
+.footer .line{
+    border-top: 2px solid #292929;
+}
+.footer .footer-nav{
+    color: #292929;
+    font-weight: bold;
+    margin-top: 124px;
+    font-size: 18px;
+    line-height: 22px;
+    float: left;
+}
+.footer .footer-nav li:first-child{
+    margin-bottom: 50px;
+}
+.footer .footer-nav li{
+    margin-bottom: 10px;
+}
+.footer .footer-nav li a{
+    color: #292929;
+    
+}
+.footer .store-link{
+    margin-top: 100px;
+    float: right;
+}
+.footer .store-link a{
+    display: inline-block;
+    width: 210px;
+    height: 80px;
+    margin-right: 36px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.footer .store-link a:last-child{
+    margin-right: 0;
+}
+.footer .store-link a.appstore{
+    background-image: url('../images/button_App_Store@3x.jpg')
+}
+.footer .store-link a.googleplay{
+    background-image: url('../images/button_Google_Play@3x.png')
+}
+.footer .copyright{
+    font-size: 18px;
+    line-height: 22px;
+    color: #9B9B9B;
+    position: absolute;
+    bottom: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+}
