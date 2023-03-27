@@ -27,7 +27,7 @@ html{
 .header .logo{
     width: 60px;
     height: 60px;
-    background-image: url('../images/icon_App_Icon@2x.jpg');
+    background-image: url('../images/ic_launcher.png');
     background-size: 100%;
     background-repeat: no-repeat;
     text-indent: -1000px;
