@@ -1,1 +1,2 @@
 applovin.com, 9cbefacf5ca572cdea9ba7e78161bbff, DIRECT
+facebook.com, 593215076185888, RESELLER, c3e20eee3f780d68
